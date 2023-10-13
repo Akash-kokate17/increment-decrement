@@ -1,0 +1,61 @@
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(213, 239, 13);
+   
+}
+#counter
+{
+   height: 400px;
+   width: 400px;
+   border-radius: 2px solid black;
+   box-shadow: 4px 4px 4px 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   background-color: rgb(161, 157, 157);
+  
+
+}
+
+button
+{
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: black;
+  transition: all  2s;
+  
+}
+button:hover
+{
+    background-color: rgb(198, 41, 41);
+    transform: scaleX(1.1);
+}
+
+
+#count buttton
+{
+    font-size: 70px;
+  
+    
+}
+#count 
+{
+    font-size: 66px;
+    margin-bottom: 20px;
+
+}
+#reset
+{
+    height: 50px;
+    width: 150px;
+    
+}
